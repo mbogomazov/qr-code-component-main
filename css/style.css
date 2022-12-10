@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D4E0EE;
+    background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .card {
-    background-color: #FFFFFE;
+    background-color: hsl(0, 0%, 100%);
     padding: 16px;
     text-align: center;
     font-family: 'Hanken Grotesk', sans-serif;
@@ -47,15 +47,18 @@ body {
 }
 
 .text-block {
-    margin-top: 16px;
+    margin-top: 24px;
 }
 
 .text-block h3 {
-    color: #213047;
+    color: hsl(218, 44%, 22%);
     font-size: 20px;
+    letter-spacing: 0.16px;
 }
 
 .text-block p {
-    color: #B2B5C0;
-    margin: 16px 0;
+    color: hsl(220, 15%, 55%);
+    margin: 16px 0 24px;
+    font-size: 15px;
+    letter-spacing: 0.52px;
 }
