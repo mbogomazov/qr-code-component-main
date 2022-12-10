@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4E0EE;
+    min-height: 100vh;
+}
+
+.rounded-corners {
+    border-radius: 16px;
+}
+
+.card {
+    background-color: #FFFFFE;
+    padding: 16px;
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    max-width: 320px;
+    cursor: pointer;
+    box-shadow: 0px 20px 23px 1px rgba(34, 60, 80, 0.22);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+.card:hover {
+    box-shadow: 0 0 0 0 rgba(34, 60, 80, 0);
+    transform: scale(0.98);
+}
+
+.qr-img-wrapper {
+    position: relative;
+    padding-top: 100%;
+    background-color: #C7C7C7;
+}
+
+.qr-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.text-block {
+    margin-top: 16px;
+}
+
+.text-block h3 {
+    color: #213047;
+    font-size: 20px;
+}
+
+.text-block p {
+    color: #B2B5C0;
+    margin: 16px 0;
+}
